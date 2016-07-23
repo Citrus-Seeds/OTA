@@ -1,1 +1,203 @@
+====================
+     07-23-2016
+====================
+
+   * build/
+a2b220f  Revert "drop AOSP PicoTts"  [Adarsh-Mr]
+   * frameworks/base/
+bf72497  add missing sync tile back and attempt to fix vol wake  [Adarsh-Mr]
+507e81d  [WIP] Add getPackageCandidateVolumesForceable() method  [Adarsh-Mr]
+8b287c5  add missing drawable string for themes tile in qstuner  [Adarsh-Mr]
+6dc67f4  use Material.Light for dexpreopt  [Adarsh-Mr]
+3a1239c  dexopt: Set progressbar colors and expose for themes  [Adarsh-Mr]
+9df155b  Tune up dexopt dialog  [Adarsh-Mr]
+2499c6f  Squashed revert of Dexpreopt commits Revert "dexopt: Set progressbar colors and expose for themes"  [Adarsh-Mr]
+a1fb9fc  SystemUI: fix notification on charger  [Adarsh-Mr]
+   * manifest/
+fd4e9d0  use uber tc by default  [GitHub]
+   * packages/apps/DUI/
+0fbfe5b  update icon again!  [Adarsh-Mr]
+   * packages/apps/Settings/
+bb1e2d3  Add force move app storage option.  [Adarsh-Mr]
+7f4861a  tint Custom Squash  [Adarsh-Mr]
+abc35bf  batterystyles: Remove horizontal icon  [Adarsh-Mr]
+32fd064  battery: New style icon  [Adarsh-Mr]
+b614b21  Forward port battery icon option [2/2]  [Adarsh-Mr]
+   * vendor/citrus/
+9c04650  bump to 1.0  [Adarsh-Mr]
+4227459   SystemUpdateService: enable service but lock its receivers [2/2]  [Adarsh-Mr]
+
+====================
+     07-22-2016
+====================
+
+   * build/
+34d9c09  dont build launcher3  [Adarsh-Mr]
+   * frameworks/base/
+999d688  Themes: Use CMSDK permission model [1/3]  [Adarsh-Mr]
+4b33446  add Themes and Navigation tiles to tuner reset  [Adarsh-Mr]
+   * manifest/
+65623c5  Update default.xml  [GitHub]
+5148384  fix manifest  [Adarsh-Mr]
+ae7ef41  add eleven  [Adarsh-Mr]
+0a0b5cb  update manifest  [Adarsh-Mr]
+   * packages/apps/CitrusSettings/
+551b61c  misc adjustments  [Adarsh-Mr]
+   * packages/apps/Settings/
+182f598  move themes tile under personalization  [Adarsh-Mr]
+8732804  Expose ExpandedDesktop and QuickSettings Fragment Activities  [Adarsh-Mr]
+   * packages/apps/ThemeChooser/
+33599b1  Themes: Use CMSDK permission model [2/3]  [Adarsh-Mr]
+   * packages/providers/ThemesProvider/
+fab3124  Apply bandaid to ensure preview permissions are correct  [Adarsh-Mr]
+940915f  New icon  [Adarsh-Mr]
+2bbf91c  Update controls preview to properly render themed assets.  [Adarsh-Mr]
+f070b8a  Use correct read/write perms for provider  [Adarsh-Mr]
+236a4dd  Themes: Use CMSDK permission model [3/3]  [Adarsh-Mr]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel/
+5ffd2ab  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.x-kernel/
+2a359c1  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x-kernel/
+08416e0  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.0-kernel/
+844f6fc  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber/
+b7bd9e2  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-eabi-5.x-uber/
+f7a2542  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/
+4a05e25  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber/
+4a05e25  Initial commit  [DespairFactor]
+   * prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x-uber/
+d2af900  Initial commit  [DespairFactor]
+   * vendor/citrus/
+d2149e0  Fix typo in Aarch64 UBERTC version  [Adarsh-Mr]
+083a673  update prebuilt apps  [Adarsh-Mr]
+b096c6d  update vendor  [Adarsh-Mr]
+
+====================
+     07-21-2016
+====================
+
+   * frameworks/base/
+7457020  remove tuner intent  [Adarsh-Mr]
+   * frameworks/native/
+cc145db  Tune dex2oat  [Adarsh-Mr]
+b7274dc  Tuning compiler thread count for optimal application install times  [Adarsh-Mr]
+   * manifest/
+c417332  update manifest  [Adarsh-Mr]
+   * packages/apps/CitrusSettings/
+fb5bc20  Move original "SystemUI Tuner" options under System UI settings (2/2) Break SystemUI Tuner into two parts [2/2] Change-Id: I7715b0377b9428e953817bade5268ed29c991d73 DirtyUnicorns/android_packages_apps_DU-Tweaks@9163cee  [Adarsh-Mr]
+2437139  Option to disable brightness slider [2/2]  [Adarsh-Mr]
+6ef8a0a   Add option to turn off main tiles [2/2]  [Adarsh-Mr]
+d2a03bd   Add Haptic Feedback to QS tiles [2/2]  [Adarsh-Mr]
+b9c8d28  Add Volume Rocker Wake 2/2  [Adarsh-Mr]
+e15a4af   Statusbar brightness control [2/2]  [Adarsh-Mr]
+489b72f  move four tiles to quick settings fragment  [Adarsh-Mr]
+e70a802  add empty qs fragment  [Adarsh-Mr]
+   * packages/apps/Settings/
+226b351  underp 1/2  [Adarsh-Mr]
+
+====================
+     07-20-2016
+====================
+
+   * device/xiaomi/kenzo/
+1054878  bringup citrus for kenzo  [Adarsh-Mr]
+   * frameworks/base/
+d90848e  Drop the animated settings icon  [Adarsh-Mr]
+3d5f0ce  Longpress settings button for Dirty Tweaks  [Adarsh-Mr]
+8f4bf7e  Fix lock insanity with ActivityManager  [Adarsh-Mr]
+e687008  fix build  [Adarsh-Mr]
+c9d1c09  Fix Dual tiles in qs tuner  [Adarsh-Mr]
+b334e27  Add option to turn off main tiles [1/2]  [Adarsh-Mr]
+61e685b  Set number of tile columns [1/2]  [Adarsh-Mr]
+3d4c5b4  Statusbar brightness control [1/2]  [Adarsh-Mr]
+5c8d2b6  Option to show four tiles per row  [Adarsh-Mr]
+1668bec  Extend qs haptic feedback option to Status Bar Header  [Adarsh-Mr]
+47b8984  Add Haptic Feedback to QS tiles [1/2]  [Adarsh-Mr]
+bb1afd7  Option to disable brightness slider [1/2]  [Adarsh-Mr]
+bcc1fde  Squash revert 4 tiles commits Revert "fix build"  [Adarsh-Mr]
+d10d2a3  fix build  [Adarsh-Mr]
+b4a5c89  Break SystemUI Tuner into two parts [1/2]  [Adarsh-Mr]
+1e0ea5f  Move SystemUI Turner to Citrus-Settings [1/2]  [Adarsh-Mr]
+7d68109  Fix the default value for long press on home.  [Adarsh-Mr]
+75b7fbc  SystemUI: add UserContentObserver.  [Adarsh-Mr]
+91dab8e  Correct QS Tuner reset  [Adarsh-Mr]
+fd26f399  base: display headset when plug  [Adarsh-Mr]
+   * packages/apps/CitrusSettings/
+f485d98  Add dependencies to pulse 'fading blocks' seekbars  [Adarsh-Mr]
+30e4663  clean up  [Adarsh-Mr]
+   * packages/apps/DUI/
+7137243  fico dui icon  [Adarsh-Mr]
+
+====================
+     07-19-2016
+====================
+
+   * frameworks/base/
+d7d31da  Fix Dual tiles in qs tuner  [Adarsh-Mr]
+a05f5c3  Add option to turn off main tiles [1/2]  [Adarsh-Mr]
+502bf8c   Extend qs haptic feedback option to Status Bar Header  [Adarsh-Mr]
+f45d0bc   Add Haptic Feedback to QS tiles [1/2]  [Adarsh-Mr]
+ebc57cb  Marshmallow logo instead of 'No recent apps'  [Adarsh-Mr]
+2c23702   Long press StatusBarHeaderView to launch ThemeChooser headers browser  [Adarsh-Mr]
+ee1c01d  Fw_base - let InCallUI handle proximity sensor for incoming calls [1/2]  [Adarsh-Mr]
+c6cb872  Add Vibrate on long press Header Buttons * since we dont vibrate tiles lets follow googles way and only vibrate on longpress * thanks to Alexander Martinz <eviscerationls@gmail.com> got the idea for this from his quicktiles vibrate option https://github.com/NamelessRom/android_frameworks_base/commit/df177ae  [Adarsh-Mr]
+a02fd62  StatusbarHeader: make user avatar long clickable everything else is long clickable might as well make long click on avatar bring us to user settings  [Adarsh-Mr]
+cf07695  SystemUI: status bar header long click actions Long click * Time - Set alarm * Date - Set calendar event * Battery - battery saver settings  [Adarsh-Mr]
+1f42922  SystemUI: make clock and time clickable in statusbar  [Adarsh-Mr]
+13d3fbe  Precaution to make sure wallpapers are set in full screen  [Adarsh-Mr]
+f92c80c  Fix up audio ducking  [Adarsh-Mr]
+9f28777  Fix up audio ducking  [Adarsh-Mr]
+64f9c88  Add ability to ignore interruptions while active media playback [1/2]  [Adarsh-Mr]
+8216a34  core: Reduce mutex contention in ActivityManager  [Adarsh-Mr]
+a7db6f3  core: Don't enable qualcomm location overlay by default  [Adarsh-Mr]
+2376348  geofence: Low power geofence HW implementation  [Adarsh-Mr]
+c34cf0d  Ringtone: Add support for selection of phone ringtone for SIM-2.  [Adarsh-Mr]
+1f5c591  ExpandedDesktop: Use WindowManagerPolicyControl  [Adarsh-Mr]
+76a7bd4  Create configurable default expanded desktop style.  [Adarsh-Mr]
+   * packages/apps/CitrusSettings/
+c171e46   Set number of tile columns [2/2]  [Adarsh-Mr]
+ab183fb    Add membar to recents options [2/2]  [Adarsh-Mr]
+9551a08   Recents panel clear all button tweaks  [Adarsh-Mr]
+d29b3a5   Add option to disable searchbar in recents [1/2]  [Adarsh-Mr]
+a029470  add recents tab  [Adarsh-Mr]
+66f9b2a  Add network traffic color configuration (1/2)  [Adarsh-Mr]
+78c8a20  CitrusSettings: Expose DPI alert dialog texts  [Adarsh-Mr]
+4a4ff6a  Double tap to sleep on Status Bar 2/2  [Adarsh-Mr]
+47b4314  Time Contextual Headers [2/2]  [Adarsh-Mr]
+683c33e   Keyguard charging current switch [2/2]  [Adarsh-Mr]
+f6d12f2  Add LCD Density Changer  [Adarsh-Mr]
+c371ba0   fix carrier label fc on msim  [Adarsh-Mr]
+2e77ec7   Fix empty carrier label options on msim devices  [Adarsh-Mr]
+577ef79   Show carrier label / custom & change color [2/2] [Squashed]  [Adarsh-Mr]
+c3e6323   Smartbar: save/restore profiles  [Adarsh-Mr]
+9347ced   Solid Bar Sanity Levels, Lavalamp Speed, and Sliders [3/3]  [Adarsh-Mr]
+d2d2438  Settings: add SeekBarPreference  [Adarsh-Mr]
+164c33b   Pulse Settings Move To Secure [3/3]  [Adarsh-Mr]
+867f2bb   Pulse 2.0 Advanced Audio/Visual Rendering [2/3]  [Adarsh-Mr]
+9131ee9  CitrusSettings: DUI Customizations Squashed [2/3]  [Adarsh-Mr]
+c1bdb39  underp 2/2  [Adarsh-Mr]
+928db5f  [3/3] Fling: Up swipe left/right support  [Adarsh-Mr]
+7828b4e  Just call it Fling  [Adarsh-Mr]
+23a4a10  Move SmartBar reset to the actionbar  [Adarsh-Mr]
+d405a4a  [DUI] Gallery icon support [3/5]  [Adarsh-Mr]
+553a2a0  [IconPicker] Get more stuff from icon packs  [Adarsh-Mr]
+82ae3c1  [IconPicker] Fix scaling  [Adarsh-Mr]
+fecc991  Smartbar: IME hint action modes [1/2]  [Adarsh-Mr]
+08d6eba  IconPicker: clean it up with a OmniSwitch layout  [Adarsh-Mr]
+15759ed  SmartBar: Introduce spring softkey touch animation [2/2]  [Adarsh-Mr]
+ee1e66a  Fling: Custom icon support [1/3]  [Adarsh-Mr]
+ded0a13  SmartBar: Settings support bringup  [Adarsh-Mr]
+c1d5bb6  Navigation: All the bars have a Pulse! [3/4]  [Adarsh-Mr]
+8272b18  navigation: Bring up the Fling  [Adarsh-Mr]
+807de8d  ColorPickerPreference: Introduce set default button when attribute is set  [Adarsh-Mr]
+90dac8c  Added modded marginov color picker  [Adarsh-Mr]
+   * packages/apps/Settings/
+89ab079  Revert "Wi-Fi tethering switch was briefly in wrong state"  [Adarsh-Mr]
+8e70c89  Bringup expanded desktop and implement per-user configuration  [Adarsh-Mr]
+ac61a41  BatteryBar [2/2]  [Adarsh-Mr]
 
