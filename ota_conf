@@ -1,0 +1,7 @@
+ota_url=https://raw.githubusercontent.com/Citrus-Seeds/OTA/ctr6.0/CitrusOTA.xml
+release_type=Stable
+device_name=ro.citrus.device
+version_source=citrus.ota.version
+version_delimiter=-
+version_position=6
+version_format=yyyyMMdd
